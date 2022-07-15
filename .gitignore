@@ -1,7 +1,15 @@
+# === gitignore 문법 설명 === #
+#
+# 특정 폴더 안 모든 내용 제외
+# folderName/
+# 
+# 특정 확장자 파일 제거
+# *.txt
+# 
+# =============== #
+
 # =============== #
-
 # Unity generated #
-
 # =============== #
 Temp/
 Obj/
@@ -9,8 +17,29 @@ UnityGenerated/
 Library/
 
 # ===================================== #
-
 # Visual Studio / MonoDevelop generated #
-
 # ===================================== #
-ExportedObj/ *.svd *.userprefs *.csproj *.pidb *.suo *.sln *.user *.unityproj *.booproj   # ============ # # OS generated # # ============ # .DS_Store .DS_Store? ._* .Spotlight-V100 .Trashes Icon? ehthumbs.db Thumbs.db GraphicsSettings.asset ProjectSettings.asset ProjectVersion.txt
+ExportedObj/
+*.svd
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+*.sln
+*.user
+*.unityproj
+*.booproj
+
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes Icon?
+ehthumbs.db
+Thumbs.db
+GraphicsSettings.asset
+ProjectSettings.asset
+ProjectVersion.txt
